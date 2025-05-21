@@ -2,8 +2,6 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Award, TrendingUp, Target, Users } from 'lucide-react';
-import photo from '../../public/Shama.png';
-
 
 const About: React.FC = () => {
   const [ref, inView] = useInView({
@@ -53,7 +51,7 @@ const About: React.FC = () => {
             <div className="aspect-[4/3] rounded-2xl overflow-hidden magic-card p-1">
               <div className="h-full w-full rounded-xl overflow-hidden relative">
                 <img
-                  src={photo}
+                  src="/public/Shama.png"
                   alt="SEO Copywriter at work"
                   className="object-cover h-full w-full align-top"
                 />
