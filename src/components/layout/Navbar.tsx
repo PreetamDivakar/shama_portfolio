@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Github, Linkedin, Twitter } from 'lucide-react';
+import smh from '../../public/smh1.png'; 
 
 const Navbar: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -51,7 +52,7 @@ const Navbar: React.FC = () => {
           transition={{ duration: 0.5 }}
           className="font-bold text-2xl bg-gradient-to-r from-accent-blue to-accent-purple text-transparent bg-clip-text"
         >
-          <img src='/public/smh1.png.png' className='w-[150px] h-[75px]'/>
+          <img src={smh} className='w-[150px] h-[75px]'/>
         </motion.a>
 
         {/* Desktop Navigation */}
