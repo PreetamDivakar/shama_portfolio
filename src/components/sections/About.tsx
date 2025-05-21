@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Award, TrendingUp, Target, Users } from 'lucide-react';
-import photo from '../public/Shama.png';
+import photo from '../../public/Shama.png';
 
 
 const About: React.FC = () => {
